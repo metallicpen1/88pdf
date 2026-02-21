@@ -1,6 +1,6 @@
 # 88pdf
 
-**88pdf** is a Google Chrome extension designed to search for text across all open PDF tabs simultaneously.
+**88pdf** is a Chrome Extension that lets you search for text across all open PDFs simultaneously .
 ## Features
 
 - **Global PDF Search:** Search through all open PDF tabs at once.
