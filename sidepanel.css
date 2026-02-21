@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body,
+button,
+input {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+}
+
+body {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    padding: 12px;
+    border-bottom: 1px solid #d1d1d1;
+    background: white;
+    z-index: 10;
+    flex-shrink: 0;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.logo {
+    max-height: 24px;
+    width: auto;
+}
+
+#settingsBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.warning-banner {
+    background: #fff3cd;
+    color: #856404;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+    font-size: 0.85em;
+    text-align: center;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+.search-container {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 6px 10px;
+    border: 1px solid #d1d1d1;
+    font-size: 0.9em;
+}
+
+#searchBtn {
+    padding: 6px;
+    background: #eee;
+    border: 1px solid #d1d1d1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.status-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-bar {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.navigation {
+    display: flex;
+    gap: 4px;
+}
+
+.navigation button {
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: #555;
+}
+
+.navigation button:disabled {
+    color: #ccc;
+}
+
+.results-list {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.pdf-group-title {
+    background-color: #d1d1d1;
+    color: #333;
+    padding: 6px 12px;
+    font-size: 0.85em;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.page-group-title {
+    background-color: #e5e5e5;
+    color: #333;
+    padding: 4px 12px 4px 22px;
+    font-size: 0.8em;
+}
+
+.result-item {
+    padding: 8px 12px 8px 32px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.result-item:hover {
+    background-color: #f0f0f0;
+}
+
+.result-item.active-result {
+    background-color: #e0f0ff;
+}
+
+.result-context {
+    font-size: 0.8em;
+    color: #444;
+    font-weight: 400;
+}
